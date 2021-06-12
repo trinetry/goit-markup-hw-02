@@ -1,0 +1,38 @@
+:root {
+  --primary-text-color: #ffffff;
+  --additional-text-color:#212121;
+  --paragraph-text-color: #757575;
+  --accent-color: #2196f3;
+}
+
+.body {
+  background-color: var(--primary-text-color);
+  color: var(--additional-text-color);
+}
+.logo {
+  color: var(--accent-color);
+}
+.header-element {
+  color: var(--accent-color);
+}
+.header-mail {
+  color var(--accent-color);
+}
+.header-phone {
+  color: var(--title-text-color);
+}
+.footer-adress {
+  color: var(--primary-text-color);
+}
+.footer-mail {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-phone {
+  color: rgba(156, 155, 155, 0.6);
+}
+p {
+  color: var(--paragraph-text-color);
+}
+ul {
+  list-style: none;
+}
