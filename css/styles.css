@@ -57,7 +57,7 @@ body {
   text-decoration: none;
 }
 
-.contact-header.hoover {
+.contact-header:hoover {
   color: var(--accent-color);
 }
 
