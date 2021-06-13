@@ -133,3 +133,28 @@ body {
   color: var(--paragraph-text-color);
   text-decoration: none;
 }
+
+/*Portfolio*/
+
+.project-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.project-button:hover {
+  color: var(--accent-color);
+}
+
+.project-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.project-type {
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--paragraph-text-color);
+}
