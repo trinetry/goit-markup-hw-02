@@ -3,6 +3,8 @@
   --primary-text-color: #212121;
   --paragraph-text-color: #757575;
   --accent-color: #2196f3;
+  --hero-button-color: #188ce8;
+  --font-color: #2f303a;
 }
 ul {
   list-style-type: none;
@@ -27,13 +29,18 @@ body {
 }
 
 .logo {
+  font-family: Raleway;
+  font-style: 400;
+  letter-spacing: 0.03em;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
+  color: var(--primary-text-color);
 }
 
-.logo:hover {
+.logo:hover,
+.logo:focus {
   color: var(--accent-color);
 }
 
@@ -46,7 +53,8 @@ body {
   color: var(--primary-text-color);
 }
 
-.nav-elements:hover {
+.nav-elements:hover,
+.nav-elements:focus {
   color: var(--accent-color);
 }
 
@@ -57,14 +65,15 @@ body {
   text-decoration: none;
 }
 
-.contact-header:hoover {
+.contact-header:hover,
+.contact-header:focus {
   color: var(--accent-color);
 }
 
 /*Hero*/
 
 .hero-section {
-  background-color: #2f303a;
+  background-color: var(--font-color);
 }
 
 .theme {
@@ -74,6 +83,7 @@ body {
   color: var(--primary-white-color);
   text-align: center;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .hero-button {
@@ -81,14 +91,22 @@ body {
   font-size: 16px;
   line-height: 1.8;
   color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--hero-button-color);
 }
 
 /*Main advantages*/
 
 .advantages {
+  font-style: 400;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  text-transform: uppercase;
 }
 
 .advantages-details {
@@ -122,9 +140,19 @@ body {
 
 /*Footer*/
 
+footer {
+  background-color: var(--font-color);
+}
+
 .adress {
   line-height: 2;
   color: var(--primary-white-color);
+  text-decoration: none;
+}
+
+.adress:hover,
+.adress:focus {
+  color: var(--accent-color);
 }
 
 .contact-footer {
@@ -134,15 +162,25 @@ body {
   text-decoration: none;
 }
 
+.contact-footer:hover,
+.contact-footer:focus {
+  color: var(--accent-color);
+}
+
 /*Portfolio*/
 
 .project-button {
+  font-family: inherit;
+  font-style: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
+  text-align: center;
+  letter-spacing: inherit;
 }
 
-.project-button:hover {
+.project-button:hover,
+.project-button:focus {
   color: var(--accent-color);
 }
 
