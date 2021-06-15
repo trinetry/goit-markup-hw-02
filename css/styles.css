@@ -144,6 +144,17 @@ footer {
   background-color: var(--font-color);
 }
 
+.logo-footer {
+  font-family: Raleway;
+  font-style: 400;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  color: var(--primary-white-color);
+}
+
 .adress {
   line-height: 2;
   color: var(--primary-white-color);
@@ -158,7 +169,7 @@ footer {
 .contact-footer {
   font-family: Roboto;
   line-height: 1.71;
-  color: var(--paragraph-text-color);
+  color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
 
